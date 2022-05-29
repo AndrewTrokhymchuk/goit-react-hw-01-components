@@ -1,0 +1,43 @@
+.friends {
+  width: 350px;
+  margin: 15px auto;
+  text-align: center;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 50%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.item {
+  display: flex;
+  align-items: center;
+  border: solid 1px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.online {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0 15px 0 15px;
+}
+
+.offline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 15px 0 15px;
+}
+
+.avatar {
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
